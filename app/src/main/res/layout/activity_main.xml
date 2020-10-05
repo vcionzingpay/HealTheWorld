@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="37"
+        android:orientation="vertical"
+        android:background="@drawable/color"
+        android:gravity="center|center_vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="482dp"
+            android:layout_margin="25dp"
+            android:background="@drawable/layout_bg"
+            android:orientation="vertical"
+
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Help Children From Around The World"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/intro_IMG"
+                android:layout_width="match_parent"
+                android:layout_height="251dp"
+                android:src="@drawable/intro3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Reduce Poverty"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:text="Total donation"
+                android:textSize="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="center"
+                android:text="50,56136 Shared Meals"
+                android:textSize="15dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DA4167"
+                android:text="DONATE NOW"
+                android:textColor="#FFFF"
+                android:textSize="13dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:orientation="horizontal"
+        android:gravity="center|bottom"
+        android:layout_weight="3">
+
+        <Button
+            android:id="@+id/Goal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:textColor="#4780D7"
+            android:text="Introduction"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+<!--        <ImageButton-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="22pt"-->
+<!--            android:onClick="Home_Onclick"-->
+<!--            android:src="@drawable/home"-->
+<!--            android:tint="#00FFFFFF" />-->
+
+        <Button
+            android:id="@+id/TheTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:text="The Table"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/Community"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:text="Community"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/Profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:text="Profile"
+            android:gravity="center"/>
+
+<!--        <ImageButton-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="22pt"-->
+<!--            android:onClick="Profile_Onclick"-->
+<!--            android:src="@drawable/profile" />-->
+
+<!--        <ImageButton-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="22pt"-->
+<!--            android:onClick="Location_Onclick"-->
+<!--            android:src="@drawable/location" />-->
+<!--        <ImageButton-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="22pt"-->
+
+<!--            android:src="@drawable/community"-->
+<!--            android:onClick="Community_Onclick"/>-->
+
+    </LinearLayout>
+</LinearLayout>

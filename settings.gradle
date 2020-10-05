@@ -1,0 +1,2 @@
+rootProject.name='Heal The World'
+include ':app'
